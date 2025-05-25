@@ -26,7 +26,7 @@ kubectl create deployment testapp --image kiran2361993/kubegame:v1 --replicas 3 
 
 ### Adding Another Container
 Add the following container to the deployment:
-- Image: `kiran2361993/mydb:v1`
+- Image: `Jaseem128/mydb:v1`
 - Name: `Database`
 
 ### Labels and Annotations
