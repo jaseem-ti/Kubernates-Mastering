@@ -46,8 +46,8 @@ kubectl get pods
 ### Adding Annotations
 Annotations can pass information such as:
 - Info: "This Deployment file has been created by Saikiran Pinapathruni"
-- Email: "pinapathruni.saikiran@gmail.com"
-- Owner: "Saikiran Pinapathruni"
+- Email: "tijaseem@gmail.com"
+- Owner: "jaseem"
 
 ### Environment Variables
 Set environment variables at the container level:
@@ -58,7 +58,7 @@ env:
   - name: DB_PORT
     value: "3306"
   - name: DB_URL
-    value: "saikiranpi.in/mydb"
+    value: "jaseem.in/mydb"
 ```
 
 ### Checking Environment Variables
@@ -103,7 +103,6 @@ DaemonSets ensure that one pod is run on each node.
 #### StatefulSets
 StatefulSets maintain the identity of pods, ensuring the hostname remains the same.
 
-## Interview Questions
 
 **What is the difference between Deployments, DaemonSets, and StatefulSets?**
 
